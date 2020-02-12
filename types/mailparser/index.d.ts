@@ -211,7 +211,7 @@ interface ParsedMail {
 	/**
 	 * The subject line.
 	 */
-	subject: string;
+	subject?: string;
 	/**
 	 * An array of referenced Message-ID values.
 	 *
